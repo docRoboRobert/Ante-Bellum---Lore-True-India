@@ -6,7 +6,7 @@ tags={
 }
 supported_version="1.34.2"
 picture="thumbnail.png"
-path="C:/Users/mrrob/Desktop/Documents/Paradox Interactive/Europa Universalis IV/mod/AB_no_india"
+path="mod/AB_no_india"
 dependencies={
 	"Ante Bellum"
 }
