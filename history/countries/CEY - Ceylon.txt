@@ -1,0 +1,55 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+technology_group = indian
+religion = hinduism
+primary_culture = sinhala
+capital = 572 # Kotte
+
+1408.1.1 = {
+	monarch = {
+		name = "Parakramabahu VII"
+		dynasty = "Savulu"
+		ADM = 2
+		DIP = 2
+		MIL = 4
+	}
+}
+
+1408.1.1 = {
+	heir = {
+		name = "Jayabahu"
+		monarch_name = "Jayabahu II"
+		dynasty = "Savulu"
+		birth_date = 1408.1.1
+		death_date = 1470.1.1
+		claim = 95
+		ADM = 2
+		DIP = 2
+		MIL = 2
+	}
+}
+
+1468.1.1 = {
+	monarch = {
+		name = "Jayabahu II"
+		dynasty = "Savulu"
+		ADM = 2
+		DIP = 2
+		MIL = 2
+	}
+}
+
+1468.1.1 = {
+	heir = {
+		name = "Jayabahu"
+		monarch_name = "Jayabahu II"
+		dynasty = "Savulu"
+		birth_date = 1450.1.1
+		death_date = 1478.1.1
+		claim = 95
+		ADM = 2
+		DIP = 2
+		MIL = 2
+	}
+}

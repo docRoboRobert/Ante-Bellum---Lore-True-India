@@ -1,0 +1,34 @@
+government = monarchy
+add_government_reform = indian_sultanate_reform
+government_rank = 1
+technology_group = indian
+religion = shiite
+primary_culture = avadhi
+capital = 4495
+religious_school = jafari_school
+
+# Nawabs of Awadh/Oudh
+
+1724.10.9 = {
+	monarch = {
+		name = "Muhammad Sa'adat Khan"
+		dynasty = "Awadhi"
+		ADM = 5
+		DIP = 6
+		MIL = 5
+	}
+}
+
+1724.10.9 = {
+	heir = {
+		name = "Muhammad Muqim"
+		monarch_name = "Muhammad Safdar Jang"
+		dynasty = "Awadhi"
+		birth_date = 1708.1.1
+		death_date = 1754.10.5
+		claim = 95
+		ADM = 2
+		DIP = 3
+		MIL = 3
+	}
+}

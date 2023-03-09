@@ -1,0 +1,37 @@
+government = theocracy
+add_government_reform = leading_clergy_reform
+technology_group = chinese
+religion = vajrayana
+primary_culture = tibetan
+capital = 565	# Thimphu
+
+#Independent from Tibet 1616
+
+1616.1.1 = {
+	monarch = {
+		name = "Ngawang Namgyal"
+		ADM = 6
+		DIP = 6
+		MIL = 4
+	}
+}
+
+#Dharma Rajas 
+
+1651.3.1 = {
+	monarch = {
+		name = "Pekar Jungney"
+		ADM = 2
+		DIP = 2
+		MIL = 2
+	}
+}
+
+1698.1.1 = {
+	monarch = {
+		name = "Kunga Gyaltshen"
+		ADM = 2
+		DIP = 2
+		MIL = 2
+	}
+}

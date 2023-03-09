@@ -1,0 +1,34 @@
+# 4471 - Bishnupur
+
+
+culture = bengali
+religion = hinduism
+capital = "Bishnupur"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = no
+native_size = 35
+native_ferocity = 7
+native_hostileness = 6
+discovered_by = indian
+
+1576.7.12 = {
+	owner = MUG
+	controller = MUG
+	add_core = MUG
+}
+1627.1.1 = { discovered_by = POR }
+1707.3.15 = {
+	owner = BNG
+	controller = BNG
+	remove_core = MUG
+}
+1765.1.1 = {
+	owner = GBR
+	controller = GBR
+	add_core = GBR
+	capital = "Burdwan"
+} # Given to GBR by Mughal Empire (was formerly british puppet)

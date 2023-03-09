@@ -1,0 +1,16 @@
+#5254
+
+
+culture = polynesian
+religion = animism
+capital = "Aeang"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = no
+native_size = 35
+native_ferocity = 4
+native_hostileness = 10
+discovered_by = indian

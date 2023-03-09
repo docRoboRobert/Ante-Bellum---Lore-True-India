@@ -1,0 +1,17 @@
+#5173 - Saya de Malha
+
+culture = madagasque
+religion = shamanism #Fetishism
+capital = "Maihala"
+trade_goods = unknown
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 2
+native_size = 20
+native_ferocity = 5
+native_hostileness = 5
+is_city = no
+discovered_by = east_african
+
+1500.8.20 = { discovered_by = POR } #Diego Dias

@@ -1,0 +1,36 @@
+#4467 - Kalinjar
+
+
+culture = vindhyan
+religion = hinduism
+capital = "Kalinjar"
+trade_goods = unknown
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 1
+is_city = no
+native_size = 80
+native_ferocity = 12
+native_hostileness = 8
+discovered_by = indian
+
+1542.1.1 = { #Joined with Garha-Katanga
+	owner = GDW
+	controller = GDW
+	add_core = GDW
+}
+1576.1.1 = { controller = MUG }
+1577.1.1 = {
+	owner = BND
+	controller = BND
+	add_core = BND
+}
+1671.1.1 = {
+	owner = PAN
+	controller = PAN
+	remove_core = BND
+}
+1690.1.1 = { discovered_by = ENG }
+1707.5.12 = { discovered_by = GBR }
+

@@ -1,0 +1,61 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+technology_group = indian
+religion = hinduism
+primary_culture = telegu
+capital = 542	# Golcanda 
+fixed_capital = 542 # Cannot move capital away from this province & no power cost to move to it
+
+1490.1.1 = {
+	monarch = {
+		name = "Quli Qutb-ul-Mulk"
+		dynasty = "Qutb Shahi"
+		DIP = 3
+		ADM = 5
+		MIL = 6
+	}
+	government_rank = 1
+}
+
+1518.1.1 = {
+	government_rank = 2
+}
+
+1520.12.18 = {
+	heir = {
+		name = "Jamshid"
+		monarch_name = "Jamshid Quli"
+		dynasty = "Qutb Shahi"
+		birth_date = 1500.1.1
+		death_date = 1550.1.22
+		claim = 95
+		ADM = 3
+		DIP = 3
+		MIL = 2
+	}
+}
+
+1543.9.2 = {
+	monarch = {
+		name = "Jamshid Quli"
+		dynasty = "Qutb Shahi"
+		DIP = 3
+		ADM = 3
+		MIL = 2
+	}
+}
+
+1543.9.2 = {
+	heir = {
+		name = "Subhan Quli"
+		monarch_name = "Subhan Quli"
+		dynasty = "Qutb Shahi"
+		birth_date = 1543.1.1
+		death_date = 1550.7.22
+		claim = 95
+		ADM = 1
+		DIP = 0
+		MIL = 0
+	}
+}

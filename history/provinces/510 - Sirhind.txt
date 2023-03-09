@@ -1,0 +1,22 @@
+#510 - Sirhind
+
+owner = PTA
+controller = PTA
+culture = panjabi
+religion = sunni
+capital = "Sirhind"
+trade_goods = glass
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 2
+is_city = yes
+add_core = PTA
+fort_15th = yes
+discovered_by = indian
+extra_cost = 8
+center_of_trade = 1
+
+
+1690.1.1 = { discovered_by = ENG }
+1707.5.12 = { discovered_by = GBR }

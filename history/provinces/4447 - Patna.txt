@@ -1,0 +1,42 @@
+#4447 - Patna
+
+latent_trade_goods = {
+	coal
+}
+
+owner = PTT
+controller = PTT
+culture = garjati
+religion = hinduism
+capital = "Patna"
+trade_goods = wool
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_core = PTT
+center_of_trade = 1
+extra_cost = 8
+discovered_by = indian
+
+1498.1.1 = { discovered_by = POR }
+1752.1.1 = {
+	owner = NAG
+	controller = NAG
+	add_core = NAG
+} # Marathas
+1803.1.1 = {
+	owner = GBR
+	controller = GBR
+	add_core = GBR
+}
+1806.1.1 = {
+	owner = NAG
+	controller = NAG
+} # Restored to Nagpur
+1816.1.1 = {
+	owner = GBR
+	controller = GBR
+	remove_core = NAG
+}

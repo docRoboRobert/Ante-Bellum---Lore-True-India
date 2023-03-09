@@ -1,0 +1,20 @@
+#562 - Koch Behar
+
+owner = KMT
+controller = KMT
+culture = kochi
+religion = hinduism
+capital = "Kamatapur"
+trade_goods = ivory
+hre = no
+base_tax = 4
+base_production = 1
+base_manpower = 2
+is_city = yes
+add_core = KMT
+discovered_by = indian
+
+
+1587.1.1 = { capital = "Atharokotha" }
+1627.1.1 = { discovered_by = POR }
+1714.1.1 = { capital = "Cooch Behar" }

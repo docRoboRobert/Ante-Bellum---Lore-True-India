@@ -1,0 +1,34 @@
+#518 - Chittor
+
+
+culture = rajput
+religion = hinduism
+capital = "Chittor"
+trade_goods = unknown
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 1
+is_city = no
+native_size = 75
+native_ferocity = 11
+native_hostileness = 14
+discovered_by = indian
+
+1534.1.1 = { controller = GUJ } # War with Gujarat
+1536.1.1 = { controller = MER } # War with Gujarat ends
+1544.1.1 = {
+	owner = BNG
+	controller = BNG
+	add_core = BNG
+} # Sur expansion
+1545.5.22 = {
+	owner = MER
+	controller = MER
+	remove_core = BNG
+} # Independence regained after death of Sher Shah
+1680.1.1 = { controller = MUG }
+1681.1.1 = { controller = MER }
+1690.1.1 = { discovered_by = ENG }
+1707.5.12 = { discovered_by = GBR }
+

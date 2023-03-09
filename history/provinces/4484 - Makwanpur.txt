@@ -1,0 +1,32 @@
+#4484 - Makwanpur
+
+owner = MKP
+controller = MKP
+culture = nepali
+religion = hinduism
+capital = "Makwanpur"
+trade_goods = grain
+hre = no
+base_tax = 4
+base_production = 2
+base_manpower = 3
+is_city = yes
+add_core = MKP
+discovered_by = indian
+
+1482.1.1 = {
+	owner = GRK
+	controller = GRK
+	add_core = GRK
+}
+1609.1.1 = {
+	owner = MKP
+	controller = MKP
+}
+1690.1.1 = { discovered_by = ENG }
+1707.5.12 = { discovered_by = GBR }
+1787.1.1 = {
+	owner = NPL
+	controller = NPL
+	add_core = NPL
+}

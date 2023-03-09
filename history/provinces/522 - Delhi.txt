@@ -1,0 +1,26 @@
+#522 - Delhi
+
+
+culture = kanauji
+religion = hinduism
+capital = "Delhi"
+trade_goods = silk
+hre = no
+base_tax = 6
+base_production = 5
+base_manpower = 4
+is_city = no
+native_size = 150
+native_ferocity = 16
+native_hostileness = 12
+discovered_by = indian
+extra_cost = 16
+center_of_trade = 2
+
+
+1546.1.1 = { fort_15th = yes }
+1638.1.1 = { capital = "Shahjahanabad" }
+1648.1.1 = { fort_15th = no fort_16th = yes }
+1690.1.1 = { discovered_by = ENG }
+1707.5.12 = { discovered_by = GBR }
+1784.1.1 = { capital = "Delhi" }

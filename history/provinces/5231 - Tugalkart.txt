@@ -1,0 +1,16 @@
+#5231 - Tugalkart
+
+
+culture = kochi
+religion = hinduism
+capital = "Tugalkart"
+trade_goods = unknown
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 1
+is_city = no
+native_size = 70
+native_ferocity = 8
+native_hostileness = 8
+discovered_by = indian

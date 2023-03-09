@@ -1,0 +1,29 @@
+#4431 - Kolhapur
+
+
+culture = marathi
+religion = hinduism
+capital = "Kolhapur"
+trade_goods = unknown
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 2
+is_city = no
+native_size = 95
+native_ferocity = 12
+native_hostileness = 11
+discovered_by = indian
+
+1490.1.1 = {
+	remove_core = BAH
+	controller = BIJ
+	owner = BIJ
+} # The Breakup of the Bahmani sultanate
+1498.1.1 = { discovered_by = POR }
+1650.1.1 = { add_core = MAR }
+1657.1.1 = {
+	owner = MAR
+	controller = MAR
+	remove_core = BIJ
+} # Inheritance of Shivaj

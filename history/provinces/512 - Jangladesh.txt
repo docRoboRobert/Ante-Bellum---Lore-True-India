@@ -1,0 +1,37 @@
+#512 - Jangladesh
+
+owner = JAN
+controller = JAN
+culture = rajput
+religion = hinduism
+capital = "Pugal"
+trade_goods = naval_supplies
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 1
+is_city = yes
+add_core = JAN
+center_of_trade = 1
+extra_cost = 8
+discovered_by = indian
+
+
+1485.1.1 = { capital = "Rati Ghati" }
+1488.1.1 = { capital = "Bikaner" }
+1544.1.1 = {
+	owner = BNG
+	controller = BNG
+	add_core = BNG
+} # Sur expansion
+1545.1.1 = {
+	owner = JAN
+	controller = JAN
+	remove_core = BNG
+} # Independence regained after death of Sher Shah
+
+
+
+1690.1.1 = { discovered_by = ENG }
+1707.5.12 = { discovered_by = GBR }
+

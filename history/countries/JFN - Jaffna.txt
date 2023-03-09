@@ -1,0 +1,52 @@
+government = monarchy
+add_government_reform = nayankara_reform
+government_rank = 1
+technology_group = indian
+religion = hinduism
+primary_culture = tamil
+capital = 2100	# Jaffna
+fixed_capital = 2100 # Cannot move capital away from this province & no power cost to move to it
+
+1440.1.1 = {
+	monarch = {
+		name = "Kanakasooriya Cinkaiariyan"
+		dynasty = "Aryacakravarti"
+		ADM = 2
+		DIP = 3
+		MIL = 3
+	}
+}
+
+1450.1.1 = {
+	monarch = {
+		name = "Sapumal Kumaraya" #Later Bhuvanaikabahu VI of Kotte
+		dynasty = "Savulu"
+		ADM = 1
+		DIP = 1
+		MIL = 4
+	}
+}
+
+1467.1.1 = {	#Second time
+	monarch = {
+		name = "Kanakasooriya Cinkaiariyan"
+		dynasty = "Aryacakravarti"
+		ADM = 2
+		DIP = 3
+		MIL = 3
+	}
+}
+
+1467.1.1 = {
+	heir = {
+		name = "Singai Pararasasegaram"
+		monarch_name = "Singai Pararasasegaram"
+		dynasty = "Aryacakravarti"
+		birth_date = 1450.1.1
+		death_Date = 1519.1.1
+		claim = 95
+		adm = 3
+		dip = 1
+		mil = 2
+	}
+}

@@ -1,0 +1,86 @@
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+primary_culture = rajput
+religion = sunni
+technology_group = indian
+capital = 520	# Mewat
+fixed_capital = 520 # Cannot move capital away from this province & no power cost to move to it
+religious_school = shafii_school
+
+#Meo Cheifs
+
+
+1422.1.1 = {
+	monarch = {
+		name = "Jallu Khan"
+		dynasty = "Mewati"
+		DIP = 1
+		MIL = 2
+		ADM = 1
+	}
+}
+
+1422.1.1 = {
+	heir = {
+		name = "Ahmad Khan"
+		monarch_name = "Ahmad Khan"
+		dynasty = "Mewati"
+		birth_date = 1390.1.1 #Made up
+		death_date = 1466.1.1
+		claim = 95
+		DIP = 2
+		MIL = 1
+		ADM = 2
+	}
+}
+
+1441.1.1 = {
+	monarch = {
+		name = "Ahmad Khan"
+		dynasty = "Mewati"
+		DIP = 2
+		MIL = 1
+		ADM = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = bold_fighter_personality
+}
+
+1441.1.1 = {
+	heir = {
+		name = "Adil Khan"
+		monarch_name = "Adil Khan"
+		dynasty = "Mewati"
+		birth_date = 1410.1.1 #Made up
+		death_date = 1482.1.1
+		claim = 95
+		DIP = 1
+		MIL = 1
+		ADM = 1
+	}
+}
+
+1466.1.1 = {
+	monarch = {
+		name = "Adil Khan"
+		dynasty = "Mewati"
+		DIP = 1
+		MIL = 1
+		ADM = 1
+	}
+}
+
+1466.1.1 = {
+	heir = {
+		name = "Hasan Khan"
+		monarch_name = "Hasan Khan"
+		dynasty = "Mewati"
+		birth_date = 1420.1.1 #Made up
+		death_date = 1527.3.17
+		claim = 95
+		DIP = 4
+		MIL = 4
+		ADM = 4
+	}
+}

@@ -1,0 +1,53 @@
+#2056 - Rewa Kantha
+
+
+culture = gujarati
+religion = hinduism
+capital = "Champaner"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = no
+native_size = 95
+native_ferocity = 10
+native_hostileness = 14
+discovered_by = indian
+
+
+1485.1.1 = { controller = GUJ }
+1485.11.21 = {
+	owner = GUJ
+	add_core = GUJ
+	capital = "Muhammadabad"
+} # Mahmud Begada captures champaner
+1498.1.1 = { discovered_by = POR }
+1544.1.1 = {
+	owner = BNG
+	controller = BNG
+} # Sur expansionism
+1545.1.1 = {
+	owner = GUJ
+	controller = GUJ
+} # Death of Sher Shah
+1573.6.1 = {
+	owner = MUG
+	controller = MUG
+	add_core = MUG
+	capital = "Dahod"
+} # Conquered by Akbar
+1735.1.1 = {
+	owner = MAR
+	controller = MAR
+	add_core = MAR
+	remove_core = MUG
+	capital = "Rajpipla"
+} # Malwa is ceded to the Marathas
+1803.1.1 = {
+	owner = GBR
+	controller = GBR
+	add_core = GBR
+	remove_core = MAR
+	capital = "Godhra"
+}

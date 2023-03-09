@@ -1,0 +1,36 @@
+#1948 - Bidar
+
+
+culture = kannada
+religion = hinduism
+capital = "Bidar"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 2
+base_manpower = 2
+is_city = no
+native_size = 90
+native_ferocity = 14
+native_hostileness = 12
+discovered_by = indian
+extra_cost = 8
+center_of_trade = 1
+
+1498.1.1 = { discovered_by = POR }
+1511.8.1 = { controller = VIJ }
+1512.1.1 = { controller = BAH }
+1618.1.1 = { controller = BIJ } # captured by Bijapur
+1619.1.1 = { owner = BIJ } # captured by Bijapur
+1685.1.1 = { controller = MUG }
+1686.1.1 = {
+	owner = MUG
+	add_core = MUG
+	remove_core = BAH
+}
+1712.1.1 = { add_core = DEC }	#Viceroyalty of the Deccan
+1724.1.1 = {
+	owner = DEC
+	controller = DEC
+	remove_core = MUG
+} # Asif Jah declared himself Nizam-al-Mulk

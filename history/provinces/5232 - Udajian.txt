@@ -1,0 +1,18 @@
+#5232 - Udajian
+
+
+culture = nepali
+religion = hinduism
+capital = "Cannejitaram"
+trade_goods = unknown
+hre = no
+base_tax = 2
+base_production = 4
+base_manpower = 1
+is_city = no
+native_size = 90
+native_ferocity = 14
+native_hostileness = 10
+center_of_trade = 1
+extra_cost = 8
+discovered_by = indian

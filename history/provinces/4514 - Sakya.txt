@@ -1,0 +1,36 @@
+#4514 - Sakya
+
+owner = SKY
+controller = SKY
+add_core = SKY
+culture = tibetan
+religion = vajrayana
+capital = "Sakya"
+trade_goods = paper
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 4
+is_city = yes
+center_of_trade = 1
+extra_cost = 8
+fort_15th = yes
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+
+1642.6.1 = {
+	controller = KSD
+	owner = KSD
+	add_core = KSD 
+}
+1717.1.1 = {
+	owner = ZUN
+	controller = ZUN
+} #Zunghar invasion of Tibet
+1720.1.1 = {
+	owner = UTS
+	controller = UTS
+	add_core = UTS
+}
+1721.1.1 = { discovered_by = SPA }

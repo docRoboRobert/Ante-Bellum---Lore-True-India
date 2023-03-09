@@ -1,0 +1,16 @@
+#5228 - Chewy
+
+
+culture = rajput
+religion = hinduism
+capital = "Chewypatam"
+trade_goods = unknown
+hre = no
+base_tax = 3
+base_production = 1
+base_manpower = 1
+is_city = no
+native_size = 90
+native_ferocity = 6
+native_hostileness = 14
+discovered_by = indian

@@ -1,0 +1,110 @@
+government = tribal
+add_government_reform = tribal_federation
+government_rank = 1
+primary_culture = rajput
+religion = hinduism
+technology_group = indian
+capital = 519	# Jaipur
+fixed_capital = 519 # Cannot move capital away from this province & no power cost to move to it
+
+1388.1.1 = {
+	monarch = {
+		name = "Narasimha"
+		dynasty = "Kachhawa"
+		DIP = 3
+		MIL = 2
+		ADM = 1
+	}
+}
+
+1388.1.1 = {
+	heir = {
+		name = "Banabira"
+		monarch_name = "Banabira"
+		dynasty = "Kachhawa"
+		birth_date = 1370.1.1
+		death_date = 1439.1.1
+		claim = 95
+		DIP = 2
+		MIL = 2
+		ADM = 0
+	}
+}
+
+ 
+
+1427.1.1 = {
+	monarch = {
+		name = "Banabira"
+		dynasty = "Kachhawa"
+		DIP = 2
+		MIL = 2
+		ADM = 0
+	}
+}
+
+1427.1.1 = {
+	heir = {
+		name = "Banabira"
+		monarch_name = "Banabira"
+		dynasty = "Kachhawa"
+		birth_date = 1417.1.1
+		death_date = 1467.1.1
+		claim = 95
+		DIP = 2
+		MIL = 3
+		ADM = 4
+	}
+}
+
+1439.1.1 = {
+	monarch = {
+		name = "Uddharana"
+		dynasty = "Kachhawa"
+		DIP = 2
+		MIL = 3
+		ADM = 4
+	}
+}
+
+1439.1.1 = {
+	heir = {
+		name = "Chandra Sena"
+		monarch_name = "Chandra Sena"
+		dynasty = "Kachhawa"
+		birth_date = 1430.1.1
+		death_date = 1503.1.1
+		claim = 95
+		DIP = 1
+		MIL = 3
+		ADM = 2
+	}
+	clear_scripted_personalities = yes
+	add_heir_personality = zealot_personality
+}
+
+1467.1.1 = {
+	monarch = {
+		name = "Chandra Sena"
+		dynasty = "Kachhawa"
+		DIP = 1
+		MIL = 3
+		ADM = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = zealot_personality
+}
+
+1467.1.1 = {
+	heir = {
+		name = "Prithvi"
+		monarch_name = "Prithvi Singh"
+		dynasty = "Kachhawa"
+		birth_date = 1430.1.1
+		death_date = 1527.1.1
+		claim = 95
+		DIP = 0
+		MIL = 3
+		ADM = 1
+	}
+}

@@ -1,0 +1,149 @@
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+primary_culture = kannada
+religion = hinduism
+technology_group = indian
+capital = 4421	# Seringapatam
+fixed_capital = 533 # Cannot move capital away from this province & no power cost to move to it
+
+
+1399.1.1 = {
+	monarch = {
+		name = "Ganga Raja"
+		dynasty = "Ummatur"
+		ADM = 2
+		DIP = 1
+		MIL = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = bold_fighter_personality
+	add_ruler_personality = intricate_web_weaver_personality
+}
+
+#Wodeyar dynasty before gaining control of Mysore:
+
+#1399.1.1 = {
+#	monarch = {
+#		name = "Yadu Raya"
+#		dynasty = "Wodeyar"
+#		ADM = 2
+#		DIP = 0
+#		MIL = 2
+#	}
+#}
+#
+#1399.1.1 = {
+#	heir = {
+#		name = "Châma"
+#		monarch_name = "Châma Râja I"
+#		dynasty = "Wodeyar"
+#		birth_date = 1399.1.1
+#		death_date = 1423.1.1
+#		claim = 95
+#		ADM = 2
+#		DIP = 3
+#		MIL = 3
+#	}
+#}
+#
+#
+#
+#1423.1.1 = {
+#	monarch = {
+#		name = "Châma Râja I"
+#		dynasty = "Wodeyar"
+#		ADM = 2
+#		DIP = 3
+#		MIL = 3
+#	}
+#}
+#
+#1423.1.1 = {
+#	heir = {
+#		name = "Timma"
+#		monarch_name = "Timma Râja I"
+#		dynasty = "Wodeyar"
+#		birth_date = 1423.1.1
+#		death_date = 1478.1.1
+#		claim = 95
+#		ADM = 1
+#		DIP = 1
+#		MIL = 1
+#	}
+#}
+#
+#1458.1.1 = {
+#	monarch = {
+#		name = "Timma Râja I"
+#		dynasty = "Wodeyar"
+#		ADM = 1
+#		DIP = 1
+#		MIL = 1
+#	}
+#}
+#
+#1458.1.1 = {
+#	heir = {
+#		name = "Châma"
+#		monarch_name = "Câma Râja II"
+#		dynasty = "Wodeyar"
+#		birth_date = 1458.1.1
+#		death_date = 1513.1.1
+#		claim = 95
+#		ADM = 2
+#		DIP = 0
+#		MIL = 0
+#	}
+#}
+#
+#1478.1.1 = {
+#	monarch = {
+#		name = "Châma Râja II"
+#		dynasty = "Wodeyar"
+#		ADM = 2
+#		DIP = 0
+#		MIL = 0
+#	}
+#}
+#
+#1478.1.1 = {
+#	heir = {
+#		name = "Châma"
+#		monarch_name = "Châma Râja III"
+#		dynasty = "Wodeyar"
+#		birth_date = 1478.1.1
+#		death_date = 1552.1.1
+#		claim = 95
+#		ADM = 3
+#		DIP = 1
+#		MIL = 2
+#	}
+#}
+#
+
+#Independent Wodeyars:
+
+1513.1.1 = {
+	monarch = {
+		name = "Châma Râja III"
+		dynasty = "Wodeyar"
+		ADM = 3
+		DIP = 1
+		MIL = 2
+	}
+}
+
+1513.1.1 = {
+	heir = {
+		name = "Timma"
+		monarch_name = "Timma Râja II"
+		dynasty = "Wodeyar"
+		birth_date = 1513.1.1
+		death_date = 1572.1.1
+		claim = 95
+		ADM = 4
+		DIP = 2
+		MIL = 0
+	}
+}

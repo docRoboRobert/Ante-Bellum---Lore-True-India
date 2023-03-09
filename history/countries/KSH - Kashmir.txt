@@ -1,0 +1,139 @@
+government = monarchy
+add_government_reform = indian_sultanate_reform
+primary_culture = kashmiri
+religion = mahayana
+technology_group = indian
+capital = 508	# Srinagar
+
+#Sultans of Kashmir
+1389.1.1 = {
+	monarch = {
+		name = "Sikandar"
+		dynasty = "Shah Miri"
+		ADM = 1
+		DIP = 1
+		MIL = 4
+	}
+}
+
+1389.1.1 = {
+	heir = {
+		name = "Ali Shah"
+		monarch_name = "Ali Shah I"
+		dynasty = "Shah Miri"
+		birth_date = 1389.1.1
+		death_date = 1420.6.1
+		claim = 95
+		ADM = 1
+		DIP = 3
+		MIL = 2
+	}
+}
+
+ 
+
+1413.1.1 = {
+	monarch = {
+		name = "Ali Shah I"
+		dynasty = "Shah Miri"
+		ADM = 1
+		DIP = 3
+		MIL = 2
+	}
+}
+
+1413.1.1 = {
+	heir = {
+		name = "Zayn al-'Abidin"
+		monarch_name = "Zayn al-'Abidin"
+		dynasty = "Shah Miri"
+		birth_date = 1400.1.1
+		death_Date = 1470.5.12
+		claim = 95
+		ADM = 4
+		DIP = 4
+		MIL = 3
+	}
+}
+
+1420.6.1 = {
+	monarch = {
+		name = "Zayn al-'Abidin"
+		dynasty = "Shah Miri"
+		ADM = 4
+		DIP = 4
+		MIL = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = scholar_personality
+	add_ruler_personality = just_personality
+	#add_ruler_personality = lawgiver_personality
+	#add_ruler_personality = tolerant_personality
+}
+
+1440.1.1 = {
+	heir = {
+		name = "Haydar Shah"
+		monarch_name = "Haydar Shah"
+		dynasty = "Shah Miri"
+		birth_date = 1440.1.1
+		death_Date = 1472.4.13
+		claim = 95
+		ADM = 2
+		DIP = 2
+		MIL = 2
+	}
+}
+
+1470.5.12 = {
+	monarch = {
+		name = "Haydar Shah"
+		dynasty = "Shah Miri"
+		ADM = 2
+		DIP = 2
+		MIL = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = drunkard_personality
+	add_ruler_personality = sinner_personality
+}
+
+1470.5.12 = {
+	heir = {
+		name = "Hasan Shah"
+		monarch_name = "Hasan Shah"
+		dynasty = "Shah Miri"
+		birth_date = 1460.1.1
+		death_date = 1484.1.1
+		claim = 95
+		ADM = 2
+		DIP = 2
+		MIL = 2
+	}
+}
+
+1472.4.13 = {
+	monarch = {
+		name = "Hasan Shah"
+		dynasty = "Shah Miri"
+		ADM = 2
+		DIP = 2
+		MIL = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = obsessive_perfectionist_personality
+}
+
+1472.4.13 = {
+	heir = {
+		name = "Muhammad Shah"
+		monarch_name = "Muhammad Shah"
+		dynasty = "Shah Miri"
+		birth_date = 1460.1.1
+		death_Date = 1486.1.1
+		claim = 95
+		ADM = 0
+		DIP = 0
+		MIL = 3
+	}
+}

@@ -1,0 +1,80 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+primary_culture = chin
+religion = mahayana
+technology_group = indian
+capital = 2091 # Tripura
+fixed_capital = 2091 # Cannot move capital away from this province & no power cost to move to it
+
+1380.1.1 = {
+	monarch = {
+		name = "Dharma"
+		dynasty = "Manikya"
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+
+1380.1.1 = {
+	heir = {
+		name = "Pratap"
+		monarch_name = "Pratap"
+		dynasty = "Manikya"
+		claim = 90
+		birth_date = 1380.1.1
+		death_date = 1450.1.1
+		adm = 3
+		dip = 2
+		mil = 1
+	}
+}
+
+1410.1.1 = {
+	monarch = {
+		name = "Pratap"
+		dynasty = "Manikya"
+		adm = 3
+		dip = 2
+		mil = 1
+	}
+}
+
+1410.1.1 = {
+	heir = {
+		name = "Dhanya"
+		monarch_name = "Dhanya"
+		dynasty = "Manikya"
+		claim = 90
+		birth_date = 1400.1.1
+		death_date = 1480.1.1
+		adm = 3
+		dip = 2
+		mil = 5
+	}
+}
+
+1450.1.1 = {
+	monarch = {
+		name = "Dhanya"
+		dynasty = "Manikya"
+		adm = 3
+		dip = 2
+		mil = 5
+	}
+}
+
+1450.1.1 = {
+	heir = {
+		name = "Dhwaj"
+		monarch_name = "Dhwaj"
+		dynasty = "Manikya"
+		claim = 90
+		birth_date = 1420.1.1
+		death_date = 1500.1.1
+		adm = 0
+		dip = 1
+		mil = 0
+	}
+}

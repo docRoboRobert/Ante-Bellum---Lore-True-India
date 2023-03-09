@@ -1,0 +1,39 @@
+#514 - Marwar
+
+
+culture = rajput
+religion = hinduism
+capital = "Mandore"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 2
+is_city = no
+native_size = 100
+native_ferocity = 14
+native_hostileness = 14
+discovered_by = indian
+
+
+1459.1.1 = {
+	capital = "Jodphur"
+	controller = MAW
+	owner = MAW
+	remove_core = MER
+} #Rathores restored
+1679.8.1 = { controller = MUG } # The city is pillaged
+1681.1.1 = {
+	owner = MUG
+	add_core = MUG
+	unrest = 5
+}
+1690.1.1 = { discovered_by = ENG }
+1707.3.15 = { controller = MER } # Jodphur is recaptured & the Mughals are driven out
+1707.4.1 = {
+	controller = MAW
+	owner = MAW
+	remove_core = MUG
+	unrest = 0
+} # Marwar independent
+1707.5.12 = { discovered_by = GBR }

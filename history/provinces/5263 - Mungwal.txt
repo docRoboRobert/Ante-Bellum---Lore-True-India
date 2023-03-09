@@ -1,0 +1,21 @@
+#5263 - Mungwal
+
+owner = KTU
+controller = KTU
+culture = nepali_tibetan
+religion = mahayana
+capital = "Lutar"
+trade_goods = tropical_wood
+hre = no
+base_tax = 3 
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_core = KTU
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = chinese
+
+1690.1.1 = { discovered_by = ENG }
+1707.5.12 = { discovered_by = GBR }

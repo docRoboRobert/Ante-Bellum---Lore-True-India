@@ -1,0 +1,22 @@
+#5225 - Chavapar
+
+latent_trade_goods = {
+	coal
+}
+
+culture = panjabi
+religion = hinduism
+capital = "Kirsh Chavapara"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = no
+native_size = 60
+native_ferocity = 10
+native_hostileness = 14
+discovered_by = indian
+
+1690.1.1 = { discovered_by = ENG }
+1707.5.12 = { discovered_by = GBR }

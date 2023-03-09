@@ -1,0 +1,16 @@
+#5242 - Manasera
+
+
+culture = nepali
+religion = hinduism
+capital = "Port Mannan"
+trade_goods = unknown
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 1
+is_city = no
+native_size = 40
+native_ferocity = 8
+native_hostileness = 6
+discovered_by = indian

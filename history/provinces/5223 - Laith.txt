@@ -1,0 +1,18 @@
+#5223 - Laith
+
+
+culture = malvi
+religion = hinduism
+capital = "Laitan"
+trade_goods = unknown
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 3
+is_city = no
+native_size = 110
+native_ferocity = 16
+native_hostileness = 15
+discovered_by = indian
+
+1498.1.1 = { discovered_by = POR }

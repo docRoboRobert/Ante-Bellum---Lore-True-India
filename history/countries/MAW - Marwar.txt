@@ -1,0 +1,132 @@
+government = monarchy
+add_government_reform = rajput_kingdom
+government_rank = 1
+primary_culture = rajput
+religion = hinduism
+technology_group = indian
+capital = 4506
+
+1383.1.1 = {
+	monarch = {
+		name = "Chunda"
+		dynasty = "Rathore"
+		DIP = 3
+		MIL = 2
+		ADM = 1
+	}
+}
+
+1383.1.1 = {
+	heir = {
+		name = "Kanha"
+		monarch_name = "Kanha II"
+		dynasty = "Rathore"
+		birth_date = 1383.1.1
+		death_Date = 1427.1.1
+		claim = 95
+		DIP = 2
+		MIL = 2
+		ADM = 0
+	}
+}
+
+ 
+
+1424.1.1 = {
+	monarch = {
+		name = "Kanha"
+		dynasty = "Rathore"
+		DIP = 2
+		MIL = 2
+		ADM = 0
+	}
+}
+
+1424.1.1 = {
+	heir = {
+		name = "Ranmalla"
+		monarch_name = "Ranmal"
+		dynasty = "Rathore"
+		birth_date = 1400.1.1
+		death_Date = 1438.1.1
+		claim = 95
+		DIP = 2
+		MIL = 3
+		ADM = 4
+	}
+}
+
+1427.1.1 = {
+	monarch = {
+		name = "Ranmal"
+		dynasty = "Rathore"
+		DIP = 2
+		MIL = 3
+		ADM = 4
+	}
+}
+
+1427.1.1 = {
+	heir = {
+		name = "Jodha"
+		monarch_name = "Jodha"
+		dynasty = "Rathore"
+		birth_date = 1415.1.1
+		death_Date = 1488.1.1
+		claim = 95
+		DIP = 1
+		MIL = 3
+		ADM = 4
+	}
+}
+
+1438.1.1 = {
+	monarch = {
+		name = "Jodha"
+		dynasty = "Rathore"
+		DIP = 2
+		MIL = 4
+		ADM = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = righteous_personality
+	add_ruler_personality = tactical_genius_personality
+}
+
+1440.1.1 = {
+	heir = {
+		name = "Satal"
+		monarch_name = "Satal"
+		dynasty = "Rathore"
+		birth_date = 1440.1.1
+		death_Date = 1491.3.1
+		claim = 95
+		DIP = 0
+		MIL = 3
+		ADM = 1
+	}
+}
+
+1488.1.1 = {
+	monarch = {
+		name = "Satal"
+		dynasty = "Rathore"
+		DIP = 0
+		MIL = 3
+		ADM = 1
+	}
+}
+
+1488.1.1 = {
+	heir = {
+		name = "Suraj Mal"
+		monarch_name = "Sujaji"
+		dynasty = "Rathore"
+		birth_date = 1439.1.1
+		death_Date = 1515.1.1
+		claim = 95
+		DIP = 1
+		MIL = 2
+		ADM = 1
+	}
+}

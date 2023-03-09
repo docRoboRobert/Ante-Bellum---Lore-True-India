@@ -1,0 +1,109 @@
+government = tribal
+add_government_reform = tribal_federation
+government_rank = 1
+technology_group = indian
+religion = hinduism
+primary_culture = marathi
+capital = 4434
+fixed_capital = 527
+
+
+1399.1.1 = {
+	monarch = {
+		name = "Nasir Khan"
+		dynasty = "Faruqi"
+		ADM = 2
+		DIP = 1
+		MIL = 2
+	}
+}
+
+ 
+
+1399.1.1 = {
+	heir = {
+		name = "Miran Adil Khan"
+		monarch_name = "Miran Adil Khan I"
+		dynasty = "Faruqi"
+		birth_date = 1399.1.1
+		death_date = 1441.4.28
+		claim = 95
+		ADM = 1
+		DIP = 2
+		MIL = 0
+	}
+}
+
+1437.9.20 = {
+	monarch = {
+		name = "Miran Adil Khan I"
+		dynasty = "Faruqi"
+		ADM = 1
+		DIP = 2
+		MIL = 0
+	}
+}
+
+1437.9.20 = {
+	heir = {
+		name = "Miran Mubarak"
+		monarch_name = "Miran Mubarak Khan I"
+		dynasty = "Faruqi"
+		birth_date = 1420.1.1
+		death_date = 1457.6.5
+		claim = 95
+		ADM = 2
+		DIP = 2
+		MIL = 2
+	}
+}
+
+1441.4.28 = {
+	monarch = {
+		name = "Miran Mubarak Khan I"
+ 		dynasty = "Faruqi"
+		ADM = 2
+		DIP = 2
+		MIL = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = greedy_personality
+}
+
+1441.4.28 = {
+	heir = {
+		name = "'Adil Khan"
+		monarch_name = "'Adil Khan II"
+		dynasty = "Faruqi"
+		birth_date = 1430.1.1
+		death_date = 1503.9.6
+		claim = 95
+		ADM = 2
+		DIP = 4
+		MIL = 3
+	}
+}
+
+1457.6.5 = {
+	monarch = {
+		name = "'Adil Khan II"
+		dynasty = "Faruqi"
+		ADM = 2
+		DIP = 4
+		MIL = 3
+	}
+}
+
+1480.1.1 = {
+	heir = {
+		name = "Da'ud Khan"
+		monarch_name = "Da'ud Khan"
+		dynasty = "Faruqi"
+		birth_date = 1480.1.1
+		death_date = 1510.8.6
+		claim = 95
+		ADM = 2
+		DIP = 2
+		MIL = 2
+	}
+}
