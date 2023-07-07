@@ -1,0 +1,5 @@
+#5191 - Pattal Range
+
+discovered_by = indian
+
+1500.8.20 = { discovered_by = POR } #Diego Dias

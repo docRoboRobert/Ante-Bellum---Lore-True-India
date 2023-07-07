@@ -1,5 +1,33 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 
+350;2457;sea;1794;-1;-1;-1;-1;Laghouat-Mzab
+2457;2456;sea;1794;-1;-1;-1;-1;Mzab-Touggourt
+2456;2472;sea;1794;-1;-1;-1;-1;Touggourt-Ouargla
+2472;2450;sea;1794;-1;-1;-1;-1;Ouargla-Ghadames
+2456;352;sea;1794;-1;-1;-1;-1;Touggourt-Qafsa
+4980;2318;sea;4321;3235;1134;3243;1120;Birnahid-Bahiryia
+2327;4272;sea;2334;-1;-1;-1;-1;Maan-AlJawf
+4272;2328;sea;2334;-1;-1;-1;-1;AlJawf-AlUla
+4272;393;sea;2334;-1;-1;-1;-1;AlJawf-JabalShammar
+393;2338;sea;2334;-1;-1;-1;-1;JabalShammar-Hafar
+393;2337;sea;2334;-1;-1;-1;-1;JabalShammar-Buraydah
+1;5004;sea;1255;-1;-1;-1;-1;Stockholm-Sodermanland
+4271;405;sea;2334;-1;-1;-1;-1;Suwayda-Tadmor
+309;313;sea;1262;-1;-1;-1;-1;Olonets-Soroka
+384;2337;sea;2334;-1;-1;-1;-1;Medina-Buraydah
+2330;4273;sea;4276;-1;-1;-1;-1;MadinSulaym-AlKariatan
+4277;4273;sea;4276;-1;-1;-1;-1;Taif-AlKariatan
+4274;394;sea;2334;-1;-1;-1;-1;Sudayr-Qatif
+2337;2338;sea;2334;-1;-1;-1;-1;Buraydah-Hafar
+2339;2347;sea;2334;-1;-1;-1;-1;Yabrin-Hofuf
+2339;404;sea;1779;-1;-1;-1;-1;Yabrin-Liwa
+2335;2336;sea;1779;-1;-1;-1;-1;Dawasir-Aflaj
+2335;2332;sea;4276;-1;-1;-1;-1;Dawasir-Turbah
+2335;386;sea;1779;-1;-1;-1;-1;Dawasir-Bishah
+2335;391;sea;1779;-1;-1;-1;-1;Dawasir-Najran
+2335;4282;sea;1779;-1;-1;-1;-1;Dawasir-Sahda
+1220;1221;sea;1795;3290;924;3279;898;Bayuda-ElObeid
+
 36;4999;sea;1926;-1;-1;-1;-1;Jutland-Jutland
 4999;35;sea;1926;-1;-1;-1;-1;Jutland-Jutland
 35;39;sea;1256;-1;-1;-1;-1;Jutland-Jutland
@@ -82,7 +110,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2587;1001;sea;1661;1511;1656;1510;1660;Odawa-Soto
 2576;2578;sea;1490;-1;-1;-1;-1;Mingan-Anticosti
 249;4121;sea;1284;-1;-1;-1;-1;Ayrshire-Ulster
-536;4408;sea;5181;-1;-1;-1;-1;Madurai-Salavata
+536;4408;sea;5342;-1;-1;-1;-1;Madurai-Salavata
 2803;502;sea;1522;-1;-1;-1;-1;Orinoco Delta-Trinidad
 500;499;sea;1522;-1;-1;-1;-1;St Vincent-St Lucia
 499;498;sea;1523;-1;-1;-1;-1;St Lucia-Martinique
@@ -126,9 +154,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1242;4938;sea;1431;-1;-1;-1;-1;Vitu Levu-Vanua Levu
 1087;4869;sea;1414;-1;-1;-1;-1;Wurundjeri-Peerapper
 631;627;sea;1354;-1;-1;-1;-1;Bali-Blambangan
-5202;4410;sea;1340;-1;-1;-1;-1;Kumaravai-Kumari
-5199;5200;sea;5204;-1;-1;-1;-1;Saint Brandon-Saya de Malha
-5200;5201;sea;5204;-1;-1;-1;-1;Saya de Malha-Coetivy
+5363;4410;sea;1340;-1;-1;-1;-1;Kumaravai-Kumari
+5360;5361;sea;5204;-1;-1;-1;-1;Saint Brandon-Saya de Malha
+5361;5362;sea;5204;-1;-1;-1;-1;Saya de Malha-Coetivy
 2323;1234;sea;1795;-1;-1;-1;-1;Africa-Africaa
 2323;1229;sea;1795;-1;-1;-1;-1;Africa-Afrrica
 4484;5244;sea;5236;-1;-1;-1;-1;Lemuria-Lemuria

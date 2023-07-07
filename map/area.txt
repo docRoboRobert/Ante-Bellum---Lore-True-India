@@ -64,7 +64,7 @@ eastern_indian_ocean_area = {
 }
 
 western_indian_ocean_area = {
- 	1453 1614 1616 1618 1619 1620 1625 1626 1628 1629 1630 5203 5184
+ 	1453 1614 1616 1618 1619 1620 1625 1626 1628 1629 1630 5203 5345
 }
 
 northern_lemurian_coast_area = {
@@ -72,7 +72,7 @@ northern_lemurian_coast_area = {
 }
 
 western_lemurian_coast_area = {
-	1338 1339 1340 1454 1455 1627 5204 5205 5206 5181
+	1338 1339 1340 1454 1455 1627 5204 5205 5206 5342
 }
 
 malarenes_chain_area = {
@@ -92,7 +92,7 @@ timur_sea_area = {
 }
 
 south_indian_ocean_area = {
-	1417 1418 1419 1632 1631 1633 1634 1636 1637 1638 1639 1640 1643 1645 1646 5185 5188 5190
+	1417 1418 1419 1632 1631 1633 1634 1636 1637 1638 1639 1640 1643 1645 1646 5346 5349 5351
 }
 
 great_australian_bight_area = {
@@ -1299,7 +1299,7 @@ luristan_area = { #4
 }
 
 north_kurdistan_area = { #5
-	418 2306 2307 4295 4296
+	418 2306 2307 4295 4296 5191
 }
 
 khuzestan_area = { #5
@@ -1308,7 +1308,7 @@ khuzestan_area = { #5
 
 shahrizor_area = {	#4
 	color = { 152 102 102 }
-	415 2211 4293 4294
+	415 2211 4293 4294 5192 5194
 }
 
 al_jazira_area = { #5
@@ -1725,7 +1725,7 @@ majarteen_area = { #5
 ########################################
 
 mascarenes_area = { #7
-	1100 1102 1103 5198 5199 5200 5201
+	1100 1102 1103 5359 5360 5361 5362
 }
 
 indian_ocean_islands_area = { #3
@@ -1733,7 +1733,7 @@ indian_ocean_islands_area = { #3
 }
 
 maldive_islands_area = { #3
-	1101 1248 5202
+	1101 1248 5363
 }
 
 papua_area = { #5 (Papuan Peninsula)
@@ -2033,8 +2033,8 @@ makran_area = { #5
 	434 575 2231 2232 2233
 }
 
-sistan_area = { #4
-	435 2224 2229 2230
+sistan_area = { #5
+	435 2224 2229 2230 5186
 }
 
 kalat_area = { #3
@@ -2053,8 +2053,8 @@ kyzylkum_area = { #3
 	455 1970 2363
 }
 
-transoxiana_area = { #3
-	442 453 454
+transoxiana_area = { #4
+	442 453 454 5200
 }
 
 termez_area = { #3
@@ -2071,7 +2071,7 @@ kabulistan_area = { #5
 }
 
 transcaspia_area = {
-	437 438 439 443 2349
+	437 438 439 443 2349 5198
 }
 
 mashhad_area = { #4 - Northern Khorasan
@@ -2091,17 +2091,17 @@ ghor_area = { #3
 	447 449 2225
 }
 
-merv_area = { #3
+merv_area = { #4
 	color = { 60 186 134 }
-	444 445 2350
+	444 445 2350 5199
 }
 
 balkh_area = { #3
 	450 2227 2228
 }
 
-kerman_area = { #4
-	432 2220 2234 4345
+kerman_area = { #6
+	432 2220 2234 4345 5187 5188
 }
 
 persian_gulf_coast = { #4
@@ -2116,8 +2116,8 @@ farsistan_area = { #4
 	2218 4329 4330 4331
 }
 
-iraq_e_ajam_area = { #5
-	427 428 2213 2216 4337
+iraq_e_ajam_area = { #6
+	427 428 2213 2216 4337 5190
 }
 
 azerbaijan_area = { #5 #Southern Azerbaijan
@@ -2129,7 +2129,7 @@ isfahan_area = { #3
 }
 
 tabriz_area = { #4 Central Azerbaijan
-	416 2206 2207 4304
+	416 2206 2207 4304 5193
 }
 
 tabarestan_area = { #5
@@ -2282,7 +2282,7 @@ gondwana_area = { #5
 }
 
 orissa_area = { #6
-	552 2038 2043 2049 4441 5187
+	552 2038 2043 2049 4441 5348
 }
 
 garjat_area = { #5
@@ -2319,7 +2319,7 @@ malabar_area = { #5
 
 malwa_area = { #6
 	color = { 232 18 18 }
-	526 2056 2057 2093 4461 5197
+	526 2056 2057 2093 4461 5358
 }
 
 mewar_area = { #5

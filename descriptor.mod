@@ -4,7 +4,7 @@ tags={
 	"Expansion"
 	"Gameplay"
 }
-supported_version="1.34.2"
+supported_version="1.35.*"
 picture="thumbnail.png"
 path="mod/AB_no_india"
 dependencies={

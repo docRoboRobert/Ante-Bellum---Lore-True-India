@@ -1,5 +1,0 @@
-#5190 - Serpent Chain
-
-discovered_by = indian
-
-1500.8.20 = { discovered_by = POR } #Diego Dias

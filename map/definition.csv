@@ -5178,29 +5178,29 @@ province;red;green;blue;x;x
 5177;188;94;133;Ostashkov;x
 5178;121;188;84;Rostislav;x
 5179;188;142;135;Belgorod;x
-5180;63;43;37;Southern Ghats;x
-5181;68;199;249;Palk Strait;x
-5182;31;32;44;Western Ghats;x
-5183;65;54;33;Nallamala Range;x
-5184;155;221;221;Cotton Coast;x
-5185;102;177;253;Ash Coast;x
-5186;64;58;49;Garghash Peaks;x
-5187;55;158;12;Utal;x
-5188;186;231;252;Bengal Cape Bay;x
-5189;6;23;106;Ganges Mountains;x
-5190;163;222;241;Serpent Chain;x
-5191;36;38;47;Pattal Range;x
-5192;100;65;55;Chhattisgarh;x
-5193;22;31;61;Northern Ghats;x
-5194;39;40;32;Gulgtaar Masif;x
-5195;71;22;22;Ellora Masif;x
-5196;51;50;48;Gondar Ridge;x
-5197;109;152;190;Maldarii Valley;x
-5198;181;172;11;Nazaneri;x
-5199;87;139;52;Saint Brandon;x
-5200;151;164;100;Saya de Malha;x
-5201;220;79;44;Coetivy;x
-5202;155;43;198;Kumaravai;x
+5180;221;80;240;Kopetdag;x
+5181;222;81;240;Karkas;x
+5182;185;24;155;Albarez;x
+5183;190;24;155;Shirkuh;x
+5184;175;24;155;Zagros;x
+5185;220;79;239;Alborz;x
+5186;188;130;192;Zahedan;x
+5187;189;30;192;Sabzvaran;x
+5188;25;236;240;Shahdad;x
+5189;225;83;240;Kavir;x
+5190;61;142;33;Nain;x
+5191;110;155;105;Tyare;x
+5192;20;11;71;Hakkari;x
+5193;77;224;142;Nochiyaye;x
+5194;255;25;40;Nineveh;x
+5195;210;80;240;Ustyurt;x
+5196;210;80;239;Karakum;x
+5197;210;80;238;Kyzylkum;x
+5198;189;140;255;Kyzylrabat;x
+5199;210;33;239;Dargan;x
+5200;195;74;22;Dabusiyya;x
+5201;188;154;79;Hindukush;x
+5202;158;154;79;Paropamisus;x
 5203;137;156;224;Mozambique Basin;x
 5204;182;219;231;Mascarene Archipelago;x
 5205;118;174;231;Madagascar Channel;x
@@ -5339,3 +5339,26 @@ province;red;green;blue;x;x
 5338;197;238;255;Chamdo;x
 5339;172;255;97;Maizhokunggar;x
 5340;113;165;255;Lhozhag;x
+5341;63;43;37;Southern Ghats;x
+5342;68;199;249;Palk Strait;x
+5343;31;32;44;Western Ghats;x
+5344;65;54;33;Nallamala Range;x
+5345;155;221;221;Cotton Coast;x
+5346;102;177;253;Ash Coast;x
+5347;64;58;49;Garghash Peaks;x
+5348;55;158;12;Utal;x
+5349;186;231;252;Bengal Cape Bay;x
+5350;6;23;106;Ganges Mountains;x
+5351;163;222;241;Serpent Chain;x
+5352;36;38;47;Pattal Range;x
+5353;100;65;55;Chhattisgarh;x
+5354;22;31;61;Northern Ghats;x
+5355;39;40;32;Gulgtaar Masif;x
+5356;71;22;22;Ellora Masif;x
+5357;51;50;48;Gondar Ridge;x
+5358;109;152;190;Maldarii Valley;x
+5359;181;172;11;Nazaneri;x
+5360;87;139;52;Saint Brandon;x
+5361;151;164;100;Saya de Malha;x
+5362;220;79;44;Coetivy;x
+5363;155;43;198;Kumaravai;x

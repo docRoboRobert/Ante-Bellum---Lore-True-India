@@ -1,6 +1,0 @@
-#5181 - Palk Strait
-
-discovered_by = east_african
-discovered_by = indian
-
-1500.8.20 = { discovered_by = POR } #Diego Dias
