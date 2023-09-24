@@ -36,6 +36,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1983;5011;sea;1258;-1;-1;-1;-1;Jutland-Jutland
 1015;5122;sea;1392;-1;-1;-1;-1;Jutland-Jutland
 
+5203;5204;canal;1971;-1;-1;-1;-1;wolga_canal
+
 242;5166;sea;1284;-1;-1;-1;-1;Jutland-Jutland
 
 4980;4983;sea;1795;-1;-1;-1;-1;Jutland-Jutland

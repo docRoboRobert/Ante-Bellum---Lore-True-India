@@ -5201,8 +5201,8 @@ province;red;green;blue;x;x
 5200;195;74;22;Dabusiyya;x
 5201;188;154;79;Hindukush;x
 5202;158;154;79;Paropamisus;x
-5203;137;156;224;Mozambique Basin;x
-5204;182;219;231;Mascarene Archipelago;x
+5203;158;241;255;Lower Don;x
+5204;211;236;255;Lower Volga;x
 5205;118;174;231;Madagascar Channel;x
 5206;108;210;249;Mascarene Channel;x
 5207;44;125;45;Berdota;x
@@ -5362,3 +5362,5 @@ province;red;green;blue;x;x
 5361;151;164;100;Saya de Malha;x
 5362;220;79;44;Coetivy;x
 5363;155;43;198;Kumaravai;x
+5364;137;156;224;Mozambique Basin;x
+5365;182;219;231;Mascarene Archipelago;x

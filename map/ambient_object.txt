@@ -2815,3 +2815,20 @@ type={
 		}
 	}
 }
+
+type={
+    type="nammi_kievan_lavra_mesh"
+    use_animation=no
+    scale=0.500000
+    time_duration=300.000000
+    object={
+        name="nammi_kievan_lavra_mesh"
+        hidden_on_start=no
+        position={
+            3275.000 0.100 1530.000
+        }
+        rotation={
+            0.000 -20.000 0.000
+        }
+    }
+}
