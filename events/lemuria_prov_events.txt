@@ -1,0 +1,71 @@
+#Province events for Real India
+namespace = lemuria_prov_event
+
+province_event = {
+	id = lemuria_prov_event.1
+	title = lemuria_prov_event.1.t
+	desc = lemuria_prov_event.1.d
+	#picture = EP_ISLAND_eventPicture
+	picture = wihgfx_FEMALES_eventPicture
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	goto = 5262
+	major = yes
+	
+	trigger = {
+		is_city = yes
+		province_id = 5262
+	}
+	
+	option = {
+		name = lemuria_prov_event.1.a
+		ai_chance = { factor = 100 }
+		highlight = yes
+		custom_tooltip = lemuria_prov_event.1.tooltip
+		owner = {
+			add_prestige = -10
+			add_adm_power = -15
+			add_dip_power = -15
+		}
+		ROOT = {
+			add_province_modifier = {
+				name = lemuria_kuyshi_island_modifier
+				duration = -1
+			}
+			change_trade_goods = chinaware
+		}
+		set_global_flag = kuyshi_warriors_enabled_flag
+	}
+	option = {
+		name = lemuria_prov_event.1.b
+		ai_chance = { factor = 0 }
+		ROOT = {
+			add_province_modifier = {
+				name = lemuria_kuyshi_island_modifier
+				duration = -1
+			}
+			change_trade_goods = chinaware
+		}
+	}
+	option = {
+		name = lemuria_prov_event.1.c
+		ai_chance = { factor = 0 }
+		owner = {
+			add_adm_power = -30
+			add_dip_power = -30
+			5262 = {
+				add_local_autonomy = -50
+				change_culture = PREV
+				change_religion = PREV
+				add_base_tax = 1
+				add_base_production = 1
+				change_trade_goods = chinaware
+			}
+		}
+	}
+}

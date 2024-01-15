@@ -1,0 +1,19 @@
+#Stuff
+
+lemuria_kuyshi_island_modifier = {
+	local_hostile_attrition = 2
+	local_defensiveness = 0.25
+	local_defender_dice_roll_bonus = 1
+	local_governing_cost = -0.2
+	local_production_efficiency = 0.1
+	local_tax_modifier = -0.1
+	local_culture_conversion_cost = 1
+	local_culture_conversion_time = 1
+	local_unrest = -2
+	min_local_autonomy = 10
+	local_missionary_strength = -0.1
+	local_religious_unity_contribution = -1
+	province_trade_power_modifier = 0.05
+	regiment_recruit_speed = -0.25
+	local_regiment_cost = 0.25
+}

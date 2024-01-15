@@ -1,0 +1,16 @@
+﻿l_english:
+ 
+ #Merc Companies
+ merc_lemuria_kuyshi_warriors:0 "§JKyushi Warriors§!"
+ 
+ #Modifiers
+ lemuria_kuyshi_island_modifier:0 "Island of Kyushi Warriors"
+ desc_lemuria_kuyshi_island_modifier:0 "This peculiar island is home to Kyushi warriors and specific culture built around them."
+ 
+ #Events
+ lemuria_prov_event.1.t:0 "Woman Warriors of Kyushi"
+ lemuria_prov_event.1.d:0 "To the south of the Cape of Rains lies a remote island of volcanic origin. More precisely - two islands: Chihaib and Kyushi. The name of the latter, as the local merchants and sailors claim, comes from the people the island is inhabited by. People of Kyushi Island, though speaking Dardic language as their mainland relatives, have developed their own unique and specific culture. Still similar to Indo-Europeans but with more asian characteristics, likely due to contact with Chinese and Malayan merchants. This is because the island gradually developed into important trade hub and anchoring stop for the ships trading between Persia and East Asia. Many merchants choose to stop by the island to shorten their route by avoiding Assamese Bay, pick up local goods and repair their ships. This is thanks to the hilly island being covered in lush, semi-tropical forests, perfect for construction and ship-building. This, combined with extreme monsoon periods, allows the island to grow almost any tropical crop, despite its latitude. Locals have also reported the use of iron and zinc ores. \n \nBut that's not what have caught your attention. No, the island is actually interesting for its society. Population of the island (which is over 7500 people) is defended solely by the caste of skilled warriors in with unusual dress code. A female caste warriors to be exact. They are known as Kyushi Warriors and it is them that the island and the people take their name from. The origin of the term is unknown but it most likely that it refers to the name of legendary woman who first established this guard. \n \nKyushi Warriors are given the order to protect the people and the culture, defend the island from any foreign invaders and aid those in need during the time of peace. Men in the meantime, deal with craftsmanship, field work and trade. Only the elite of women embark on the path of Kyushi Warriors. Those who do not, hold marginal status, similar to that in most early societies. It is expected that in family with more than one daughter, one will choose the Kyushi path, though only fraction will complete the training. In any case, Kyushi warriors have proven to be masterful fighters in their unusual style of combat and they did so by defending the island thus far."
+ lemuria_prov_event.1.a:0 "Impressive. We need their skills!"
+ lemuria_prov_event.1.tooltip:0 "§JKyushi Warriors§! mercenary company will be §Menabled§!. §YThis company costs no professionalism to recruit§!."
+ lemuria_prov_event.1.b:0 "Interesting case. They can be left on their own."
+ lemuria_prov_event.1.c:0 "Women as warriors? We need to civilize them!"
