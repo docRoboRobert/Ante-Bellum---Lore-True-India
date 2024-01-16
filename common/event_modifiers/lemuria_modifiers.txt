@@ -17,3 +17,9 @@ lemuria_kuyshi_island_modifier = {
 	regiment_recruit_speed = -0.25
 	local_regiment_cost = 0.25
 }
+
+rajasthan_zinc_silver_strip = {
+	local_gold_depletion_chance_modifier = -0.2
+	local_production_efficiency = 0.05
+	trade_value = 0.75
+}

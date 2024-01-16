@@ -6,6 +6,8 @@
  #Modifiers
  lemuria_kuyshi_island_modifier:0 "Island of Kyushi Warriors"
  desc_lemuria_kuyshi_island_modifier:0 "This peculiar island is home to Kyushi warriors and specific culture built around them."
+ rajasthan_zinc_silver_strip:0 "Rajasthan Zinc & Silver"
+ desc_rajasthan_zinc_silver_strip:0 "Rich mineral strip of Rajasthan, centered around Bliwara area, contains great amount of zinc, lead and silver ores. It is a largest zinc source in all of Lemuria. Metallic ore has been extracted here since 9th century and then shipped down the river to Gujarat, where it was sold. This brings strategic importance to the region."
  
  #Events
  lemuria_prov_event.1.t:0 "Woman Warriors of Kyushi"
@@ -14,3 +16,7 @@
  lemuria_prov_event.1.tooltip:0 "§JKyushi Warriors§! mercenary company will be §Menabled§!. §YThis company costs no professionalism to recruit§!."
  lemuria_prov_event.1.b:0 "Interesting case. They can be left on their own."
  lemuria_prov_event.1.c:0 "Women as warriors? We need to civilize them!"
+ lemuria_prov_event.2.t:0 "Rajasthani Mineral Deposits"
+ lemuria_prov_event.2.d:0 "Rich mineral strip of Rajasthan, centered around Bliwara area, contains great amount of zinc, lead and silver ores. It is a largest zinc source in all of Lemuria. Metallic ore has been extracted here since 9th century and then shipped down the river to Gujarat, where it was sold. This brings strategic importance to the region. \nIt is only now with proper colonization and development of the jungle hills of said area that those enormous ore veins can be properly extracted. (You almost wish this game had more sophisticated trade goods and ore deposits that are more than just iron and copper, but since it doesn't, it will have to be represented with copper)"
+ lemuria_prov_event.2.a:0 "We are rich! Begin the excavation!"
+ lemuria_prov_event.2.b:0 "We already have better industry there"
