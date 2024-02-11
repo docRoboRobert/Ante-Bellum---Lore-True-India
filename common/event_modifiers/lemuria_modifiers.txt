@@ -23,3 +23,37 @@ rajasthan_zinc_silver_strip = {
 	local_production_efficiency = 0.05
 	trade_value = 0.75
 }
+
+gate_to_tibet_1 = {
+	max_attrition = 1
+	local_hostile_attrition = 1
+	local_defender_dice_roll_bonus = 2
+	local_defensiveness = 0.2
+	local_hostile_movement_speed = -0.2
+	trade_value = 0.5
+	picture = "defensiveness"
+}
+
+gate_to_tibet_2 = {
+	max_attrition = 1
+	local_hostile_attrition = 1
+	local_defender_dice_roll_bonus = 1
+	local_defensiveness = 0.25
+	local_hostile_movement_speed = -0.1
+	local_garrison_size = 0.25
+	trade_value = 0.5
+	province_trade_power_modifier = 0.1
+	picture = "defensiveness"
+}
+
+gate_to_tibet_3 = {
+	max_attrition = 2
+	local_hostile_attrition = 1
+	local_defender_dice_roll_bonus = 1
+	local_defensiveness = 0.15
+	local_hostile_movement_speed = -0.2
+	local_garrison_damage = 0.5
+	trade_value = 0.5
+	province_trade_power_value = 2
+	picture = "defensiveness"
+}

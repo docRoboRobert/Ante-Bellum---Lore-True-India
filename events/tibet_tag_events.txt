@@ -1,0 +1,339 @@
+#Country events for Tibetan Plain
+namespace = tibet_tag_event
+
+country_event = {
+	id = tibet_tag_event.1
+	title = tibet_tag_event.1.t
+	desc = tibet_tag_event.1.d
+	picture = 19_Monsoon_eventPicture
+	
+	fire_only_once = yes
+	
+	goto = 557
+	major = yes
+	
+	trigger = {
+		is_year = 1489
+		owns = 557
+	}
+	
+	option = {
+		name = tibet_tag_event.1.a
+		custom_tooltip = tibet_tag_event.1.tooltip
+		hidden_effect = {
+			every_province = {
+				limit = {
+					OR = {
+						area = himalayan_hills_area
+						area = assam_area
+						area = tsang_area
+						area = nyima_area
+						area = utsang_area
+						area = bhutan_area
+						area = nepal_area
+						area = west_shigatse_area
+						area = baisi_rajya_area
+						province_id = 5263
+						province_id = 508
+						province_id = 4449
+						province_id = 5281
+						province_id = 5280
+						province_id = 5282
+						province_id = 5284
+						province_id = 5285
+						province_id = 2128
+						province_id = 5287
+						province_id = 4516
+						province_id = 5288
+						province_id = 5290
+						province_id = 5291
+						province_id = 5295
+						province_id = 5311
+						province_id = 5312
+						province_id = 5313
+						province_id = 5314
+						province_id = 5315
+						province_id = 5319
+						province_id = 5321
+						province_id = 5322
+						province_id = 5324
+						province_id = 5325
+						province_id = 5328
+						province_id = 705
+					}
+					NOT = { province_id = 5262 }
+				}
+				add_devastation = 50
+				if = {
+					limit = { 
+						development = 10
+						base_tax = 2
+					}
+					add_base_tax = -1
+				}
+				if = {
+					limit = { 
+						development = 10
+						base_production = 2
+					}
+					add_base_production = -1
+				}
+				if = {
+					limit = { 
+						development = 10
+						base_manpower = 2
+					}
+					add_base_manpower = -1
+				}
+				if = {
+					limit = { 
+						development = 20
+						base_tax = 2
+					}
+					add_base_tax = -1
+				}
+				if = {
+					limit = { 
+						development = 20
+						base_production = 2
+					}
+					add_base_production = -1
+				}
+				if = {
+					limit = { 
+						development = 20
+						base_manpower = 2
+					}
+					add_base_manpower = -1
+				}
+				if = {
+					limit = { 
+						development = 30
+						base_tax = 2
+					}
+					add_base_tax = -1
+				}
+				if = {
+					limit = { 
+						development = 30
+						base_production = 2
+					}
+					add_base_production = -1
+				}
+				if = {
+					limit = { 
+						development = 30
+						base_manpower = 2
+					}
+					add_base_manpower = -1
+				}
+			}
+			every_province = {
+				limit = {
+					OR = {
+						region = timuristan_region
+						region = tibet_region
+					}
+					OR = {
+						area = lahore_area
+						province_id = 4521
+						province_id = 2074
+						province_id = 4520
+						province_id = 5283
+						province_id = 5289
+						province_id = 5294
+						province_id = 5292
+						province_id = 5293
+						province_id = 5310
+						province_id = 5318
+						province_id = 5320
+						province_id = 5323
+						province_id = 5326
+						province_id = 5327
+						province_id = 5329
+					}
+				}
+				add_devastation = 20
+			}
+		}
+	}
+}
+
+country_event = {
+	id = tibet_tag_event.2
+	title = tibet_tag_event.2.t
+	desc = tibet_tag_event.2.d
+	picture = 19_Monsoon_eventPicture
+	
+	fire_only_once = yes
+	
+	goto = 557
+	major = yes
+	
+	trigger = {
+		is_year = 1574
+		owns = 557
+	}
+	
+	option = {
+		name = tibet_tag_event.2.a
+		custom_tooltip = tibet_tag_event.2.tooltip
+		hidden_effect = {
+			every_province = {
+				limit = {
+					OR = {
+						area = himalayan_hills_area
+						area = assam_area
+						area = tsang_area
+						area = nyima_area
+						area = utsang_area
+						area = bhutan_area
+						area = nepal_area
+						area = west_shigatse_area
+						area = baisi_rajya_area
+						province_id = 5263
+						province_id = 508
+						province_id = 4449
+						province_id = 5281
+						province_id = 5280
+						province_id = 5282
+						province_id = 5284
+						province_id = 5285
+						province_id = 2128
+						province_id = 5287
+						province_id = 4516
+						province_id = 5288
+						province_id = 5290
+						province_id = 5291
+						province_id = 5295
+						province_id = 5311
+						province_id = 5312
+						province_id = 5313
+						province_id = 5314
+						province_id = 5315
+						province_id = 5319
+						province_id = 5321
+						province_id = 5322
+						province_id = 5324
+						province_id = 5325
+						province_id = 5328
+						province_id = 705
+					}
+					NOT = { province_id = 5262 }
+				}
+				add_devastation = 75
+				if = {
+					limit = { 
+						development = 10
+						base_tax = 2
+					}
+					add_base_tax = -1
+				}
+				if = {
+					limit = { 
+						development = 10
+						base_production = 2
+					}
+					add_base_production = -1
+				}
+				if = {
+					limit = { 
+						development = 10
+						base_manpower = 2
+					}
+					add_base_manpower = -1
+				}
+				if = {
+					limit = { 
+						development = 20
+						base_tax = 2
+					}
+					add_base_tax = -1
+				}
+				if = {
+					limit = { 
+						development = 20
+						base_production = 2
+					}
+					add_base_production = -1
+				}
+				if = {
+					limit = { 
+						development = 20
+						base_manpower = 2
+					}
+					add_base_manpower = -1
+				}
+				if = {
+					limit = { 
+						development = 30
+						base_tax = 2
+					}
+					add_base_tax = -1
+				}
+				if = {
+					limit = { 
+						development = 30
+						base_production = 2
+					}
+					add_base_production = -1
+				}
+				if = {
+					limit = { 
+						development = 30
+						base_manpower = 2
+					}
+					add_base_manpower = -1
+				}
+				if = {
+					limit = { 
+						development = 40
+						base_tax = 2
+					}
+					add_base_tax = -1
+				}
+				if = {
+					limit = { 
+						development = 40
+						base_production = 2
+					}
+					add_base_production = -1
+				}
+				if = {
+					limit = { 
+						development = 40
+						base_manpower = 2
+					}
+					add_base_manpower = -1
+				}
+			}
+			every_province = {
+				limit = {
+					OR = {
+						region = timuristan_region
+						region = tibet_region
+					}
+					OR = {
+						area = lahore_area
+						province_id = 4521
+						province_id = 2074
+						province_id = 4520
+						province_id = 5283
+						province_id = 5289
+						province_id = 5294
+						province_id = 5292
+						province_id = 5293
+						province_id = 5310
+						province_id = 5318
+						province_id = 5320
+						province_id = 5323
+						province_id = 5326
+						province_id = 5327
+						province_id = 5329
+					}
+				}
+				add_devastation = 30
+			}
+		}
+	}
+}
