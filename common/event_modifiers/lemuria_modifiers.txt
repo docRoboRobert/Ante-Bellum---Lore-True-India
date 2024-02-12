@@ -57,3 +57,38 @@ gate_to_tibet_3 = {
 	province_trade_power_value = 2
 	picture = "defensiveness"
 }
+
+kabul_gilgit_estuary = {
+	province_trade_power_value = 5
+	picture = "estuary_icon"
+}
+
+aksai_estuary = {
+	province_trade_power_value = 5
+	picture = "estuary_icon"
+}
+
+trihai_estuary = {
+	province_trade_power_value = 5
+	picture = "estuary_icon"
+}
+
+brama_estuary = {
+	province_trade_power_value = 5
+	picture = "estuary_icon"
+}
+
+yarlung_zangbo_estuary = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+duilong_estuary = {
+	province_trade_power_value = 2.5
+	picture = "estuary_icon"
+}
+
+reting_tsangpo_estuary = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}

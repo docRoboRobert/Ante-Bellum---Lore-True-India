@@ -18,6 +18,10 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = chinese
 
+add_permanent_province_modifier = {
+	name = brama_estuary
+	duration = -1
+}
 
 1609.1.1 = {
 	owner = MKP
