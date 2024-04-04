@@ -1131,6 +1131,16 @@ type={
 		name="Seagulls_english_channel"
 		hidden_on_start=no
 		position={
+			3129.000 0.100 96.000 
+		}
+		rotation={
+			0.000 -60.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
 			1765.000 0.100 28.000 
 		}
 		rotation={
@@ -1161,20 +1171,10 @@ type={
 		name="Seagulls_english_channel"
 		hidden_on_start=no
 		position={
-			3090.000 0.100 99.000 
+			3092.000 0.100 102.000 
 		}
 		rotation={
 			0.000 -60.000 0.000 
-		}
-	}
-	object={
-		name="Seagulls_english_channel"
-		hidden_on_start=no
-		position={
-			3143.000 0.100 81.000 
-		}
-		rotation={
-			0.000 40.000 0.000 
 		}
 	}
 	object={
@@ -1795,6 +1795,16 @@ type={
 		name="Seagulls_english_channel"
 		hidden_on_start=no
 		position={
+			3873.000 0.200 298.000 
+		}
+		rotation={
+			0.000 60.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
 			3331.000 0.200 620.000 
 		}
 		rotation={
@@ -1846,16 +1856,6 @@ type={
 		hidden_on_start=no
 		position={
 			4476.000 0.200 827.000 
-		}
-		rotation={
-			0.000 60.000 0.000 
-		}
-	}
-	object={
-		name="Seagulls_english_channel"
-		hidden_on_start=no
-		position={
-			3873.000 0.200 298.000 
 		}
 		rotation={
 			0.000 60.000 0.000 
@@ -2057,6 +2057,16 @@ type={
 	use_animation=yes
 	scale=0.300000
 	time_duration=300.000000
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			3128.000 0.100 121.000 
+		}
+		rotation={
+			0.000 -60.000 0.000 
+		}
+	}
 	object={
 		name="Seagulls_english_channel"
 		hidden_on_start=no
@@ -2815,20 +2825,19 @@ type={
 		}
 	}
 }
-
 type={
-    type="nammi_kievan_lavra_mesh"
-    use_animation=no
-    scale=0.500000
-    time_duration=300.000000
-    object={
-        name="nammi_kievan_lavra_mesh"
-        hidden_on_start=no
-        position={
-            3275.000 0.100 1530.000
-        }
-        rotation={
-            0.000 -20.000 0.000
-        }
-    }
+	type="nammi_kievan_lavra_mesh"
+	use_animation=no
+	scale=0.500000
+	time_duration=300.000000
+	object={
+		name="nammi_kievan_lavra_mesh"
+		hidden_on_start=no
+		position={
+			3275.000 0.100 1530.000 
+		}
+		rotation={
+			0.000 -20.000 0.000 
+		}
+	}
 }

@@ -1,0 +1,15 @@
+#5371 - Changane
+
+culture = nguni
+religion = shamanism #Fetishism
+capital = "Funhalouro"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+native_size = 60
+native_ferocity = 5
+native_hostileness = 9
+discovered_by = east_african
+discovered_by = central_african

@@ -102,8 +102,8 @@ ab_iranian_tech_group_discover_provinces_effect = {
 						province_id = 1458
 						province_id = 1614
 						province_id = 1620
-						province_id = 1626
 						province_id = 1625
+						province_id = 1626
 						province_id = 1628
 						province_id = 1629
 						province_id = 1630
@@ -115,6 +115,7 @@ ab_iranian_tech_group_discover_provinces_effect = {
 						province_id = 1627
 						province_id = 5203
 						province_id = 5345
+						province_id = 5364
 					}
 				}
 			}

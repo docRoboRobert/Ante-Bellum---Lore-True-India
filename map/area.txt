@@ -1557,12 +1557,12 @@ uticulo_makuana_area = { #3
 	4034 4035 4048
 }
 
-quelimane_area = { #3
-	1183 1186 1192
+quelimane_area = { #4
+	1183 1186 1192 5370
 }
 
-limpopo_area = { #4
-	789 1181 1182 1800
+limpopo_area = { #5
+	789 1181 1182 1800 5371
 }
 
 central_swahili_coast_area = { #5
@@ -1988,12 +1988,12 @@ angola_namibia_area = { #5
 	1098 1167 1171 1172  5035
 }
 
-cape_of_good_hope_area = { #5
-	833 1175 1177 1179 1180
+cape_of_good_hope_area = { #7
+	833 1175 1177 1179 1180 5366 5367
 }
 
-south_african_plateau_area = { #5
-	1176 1178 2856 2880 2864
+south_african_plateau_area = { #7
+	1176 1178 2856 2880 2864 5368 5369
 }
 
 gabon_area = {
