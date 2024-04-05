@@ -1,0 +1,18 @@
+#5374 - Antandroy
+
+owner = ANT
+controller = ANT
+add_core = ANT
+culture = madagasque #Malagasy
+religion = shamanism #Fetishism
+capital = "Ambovombe"
+trade_goods = spices #vanilla
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 3
+is_city = yes
+add_local_autonomy = 30
+discovered_by = east_african
+
+1500.9.1 = { discovered_by = POR } # Diego Dias

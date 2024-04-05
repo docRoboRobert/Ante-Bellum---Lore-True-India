@@ -1506,18 +1506,18 @@ madagascar_highlands_area = { #3
 	1792 4023 4027
 }
 
-betsimasaraka_area = { #3
+betsimasaraka_area = { #4
 	color = { 29 162 26 }
-	4021 4024 4025
+	4021 4024 4025 5373
 }
 
-sakalava_area = { #5
-	1193 1194 4022 4031 4032
+sakalava_area = { #6
+	1193 1194 4022 4031 4032 5372
 }
 
-southern_madagascar = { #4
+southern_madagascar = { #7
 	color = { 232 29 34 }
-	4026 4028 4029 4030
+	4026 4028 4029 4030 5374 5375 5376
 }
 
 lower_zambezi_area = { #3

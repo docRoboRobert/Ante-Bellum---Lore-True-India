@@ -1,0 +1,19 @@
+#5373 - Irodo
+
+owner = ZAN
+controller = ZAN
+add_core = ZAN
+add_core = BTS
+culture = madagasque #Malagasy
+religion = shamanism #Fetishism
+capital = "Irodo"
+trade_goods = fish
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_local_autonomy = 75
+discovered_by = east_african
+
+1500.9.1 = { discovered_by = POR } # Diego Dias
