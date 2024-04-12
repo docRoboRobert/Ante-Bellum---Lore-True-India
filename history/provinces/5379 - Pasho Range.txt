@@ -1,0 +1,7 @@
+#5379 - Pasho Range
+
+discovered_by = chinese
+discovered_by = nomad_group
+discovered_by = indian
+
+1655.1.1 = { discovered_by = SPA }#Novus Atlas Sinensis
