@@ -184,4 +184,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 5252;5253;sea;5238;-1;-1;-1;-1;Lemuria-Lemuria
 5258;5259;sea;5239;-1;-1;-1;-1;Lemuria-Lemuria
 5260;5261;sea;5238;-1;-1;-1;-1;Lemuria-Lemuria
+720;4669;sea;5381;-1;-1;-1;-1;Gobi-Gobi
+4221;4669;sea;5381;-1;-1;-1;-1;Gobi-Gobi
+4677;720;sea;5381;-1;-1;-1;-1;Gobi-Gobi
+4677;4221;sea;5381;-1;-1;-1;-1;Gobi-Gobi
+2193;4677;sea;5381;-1;-1;-1;-1;Gobi-Gobi
 -1;-1;;-1;-1;-1;-1;-1;-1;
