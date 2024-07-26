@@ -68,11 +68,11 @@ western_indian_ocean_area = {
 }
 
 northern_lemurian_coast_area = {
-	1450 1617 1647 5208 5209 5210 
+	1450 1617 1647 5385 5386 5387 
 }
 
 western_lemurian_coast_area = {
-	1338 1339 1340 1454 1455 1627 5365 5205 5206 5342
+	1338 1339 1340 1454 1455 1627 5365 5382 5383 5342
 }
 
 malarenes_chain_area = {
@@ -504,7 +504,7 @@ piedmont_area = { #4
 }
 
 tuscany_area = { #5
-	115 116 117 2978 2980
+	115 116 117 2978 2980 5209 5210
 }
 
 liguria_area = { #3
@@ -2141,7 +2141,7 @@ tabarestan_area = { #5
 ########################################
 
 sirhind_area = { #5
-	510 2065 4411 4463 5207
+	510 2065 4411 4463 5384
 }
 
 sind_sagar_area = { #3

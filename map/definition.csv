@@ -5203,12 +5203,12 @@ province;red;green;blue;x;x
 5202;158;154;79;Paropamisus;x
 5203;158;241;255;Lower Don;x
 5204;211;236;255;Lower Volga;x
-5205;118;174;231;Madagascar Channel;x
-5206;108;210;249;Mascarene Channel;x
-5207;44;125;45;Berdota;x
-5208;133;203;234;Kutat Bay;x
-5209;127;176;255;Sargarart;x
-5210;117;235;255;Bhatar Coast;x
+5209;240;21;172;Elba;x
+5210;151;124;213;Grosseto;x
+5205;144;78;208;Apennines;x
+5206;137;78;208;Sumava;x
+5207;136;78;208;Krusne;x
+5208;135;78;208;Krkonose;x
 5211;43;185;255;Makir Lake;x
 5212;89;240;252;King Julian Sea;x
 5213;85;153;107;Kamari;x
@@ -5380,3 +5380,9 @@ province;red;green;blue;x;x
 5379;133;78;44;Pasho Range;x
 5380;53;138;55;Zhagyab;x
 5381;227;215;117;Northern Gobi;x
+5382;118;174;231;Madagascar Channel;x
+5383;108;210;249;Mascarene Channel;x
+5384;44;125;45;Berdota;x
+5385;133;203;234;Kutat Bay;x
+5386;127;176;255;Sargarart;x
+5387;117;235;255;Bhatar Coast;x

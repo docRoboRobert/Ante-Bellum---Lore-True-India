@@ -71,7 +71,7 @@ trade_company_west_india = {
 		517 2036 4430 #tapti_area
 		503 2053 4456 4480 #patan_area
 		516 2051 2054 4512 4457 #ahmedabad_area
-		510 2065 4411 4463 5207 #sirhind_area
+		510 2065 4411 4463 5384 #sirhind_area
 	}
 	
 	# Generic
@@ -653,7 +653,7 @@ trade_company_genua = {
 	
 	provinces = {
 		124 125 126 2982 #sicily_area
-		115 116 117 2978 2980 #tuscany_area
+		115 116 117 2978 2980 5209 5210 #tuscany_area
 		123 1934 2984 #calabria_area
 		101 102 2992 #liguria_area
 		103 1875 2981 #piedmont_area
