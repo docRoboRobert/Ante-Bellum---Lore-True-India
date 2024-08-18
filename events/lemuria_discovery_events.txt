@@ -1,0 +1,152 @@
+#Country events for discovery of Lemuria
+namespace = lemuria_discover_event
+
+#List nations doing exploration
+country_event = {
+	id = lemuria_discover_event.1
+	title = lemuria_discover_event.1.t
+	desc = lemuria_discover_event.1.d
+	picture = TEMPORAL_RIFT_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		ai = no
+		is_year = 1444
+		capital_scope = {
+			OR = {
+				continent = europe
+				continent = asia
+				continent = africa
+			}
+		}
+	}
+	
+	option = {
+		name = lemuria_discover_event.1.a
+		highlight = yes
+		custom_tooltip = lemuria_discover_event.1.tooltip
+		add_treasury = -10
+		add_treasury = 10
+	}
+}
+
+#Phase 1 - Rumours from merchants
+country_event = {
+	id = lemuria_discover_event.2
+	title = lemuria_discover_event.2.t
+	desc = lemuria_discover_event.2.d
+	picture = MERCHANTS_TALKING_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		ai = no
+		is_year = 1445
+		OR = {
+			tag = ETH
+			tag = MED
+			tag = ALO
+			tag = BTI
+			tag = DAM
+			tag = KAF
+			tag = ENA
+			tag = JJI
+			tag = WLY
+			tag = KOJ
+			tag = CYP
+			tag = KNI
+			tag = ATI
+			tag = OTR
+			technology_group = iranian
+			technology_group = chinese
+			technology_group = muslim
+			technology_group = eastern
+		}
+	}
+	
+	option = {
+		name = lemuria_discover_event.2.a
+		highlight = yes
+		custom_tooltip = lemuria_discover_event.2.tooltip
+	}
+	option = {
+		name = lemuria_discover_event.2.b
+		highlight = yes
+		custom_tooltip = lemuria_discover_event.2.tooltip
+	}
+}
+
+#Informations from merchants, must own coast
+country_event = {
+	id = lemuria_discover_event.3
+	title = lemuria_discover_event.3.t
+	desc = lemuria_discover_event.3.d
+	picture = muslimgfx_NAVAL_MILITARY_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		ai = no
+		is_year = 1446
+		OR = {
+			tag = ETH
+			tag = MED
+			tag = ALO
+			tag = BTI
+			tag = DAM
+			tag = KAF
+			tag = ENA
+			tag = JJI
+			tag = WLY
+			tag = KOJ
+			tag = CYP
+			tag = KNI
+			tag = ATI
+			tag = OTR
+			technology_group = iranian
+			technology_group = chinese
+			technology_group = muslim
+			technology_group = eastern
+		}
+		any_owned_province = {
+			is_port = yes
+			OR = {
+				area = gulf_of_arabia_area
+				area = basra_area
+				area = khuzestan_area
+				area = persian_gulf_coast
+				area = mogostan_area
+				region = arabia_region
+				region = horn_of_africa_region
+				region = khorasan_region
+				region = timuristan_region
+				region = tibet_region
+				region = burma_region
+				region = malaya_region
+				region = indonesia_region
+				region = moluccas_region
+				region = indo_china_region
+				region = south_china_region
+			}
+		}
+	}
+	
+	option = {
+		name = lemuria_discover_event.3.a
+		custom_tooltip = lemuria_discover_event.3.tooltip
+		highlight = yes
+		add_treasury = -100
+		add_dip_power = -20
+		add_adm_power = -20
+		add_sailors = -200
+		#Contact immediately, fires result event after 2 years
+	}
+	option = {
+		name = lemuria_discover_event.3.b
+		custom_tooltip = lemuria_discover_event.3.tooltip_b
+		#Unlocks decision which fires result event after 2 years
+	}
+}
+
+#Swahili merchants bring news

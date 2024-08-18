@@ -469,4 +469,50 @@ ab_iranian_tech_group_discover_provinces_effect = {
 		
 		clr_country_flag = iranian_discovery
 	}
+	if = {
+		limit = {
+			is_year = 1444
+			NOT = {
+				is_year = 1445
+			}
+			OR = {
+				technology_group = muslim
+				technology_group = chinese
+			}
+		}
+		hindusthan_region = {
+			undiscover_country = PREV
+		}
+	}
+	if = {
+		limit = {
+			is_year = 1444
+			NOT = {
+				is_year = 1445
+			}
+			OR = {
+				tag = ETH
+				tag = MED
+				tag = ALO
+				tag = BTI
+				tag = DAM
+				tag = KAF
+				tag = ENA
+				tag = JJI
+				tag = WLY
+			}
+		}
+		lemurian_sea_region = {
+			undiscover_country = PREV
+		}
+		coromandel_region = {
+			undiscover_country = PREV
+		}
+		west_india_region = {
+			undiscover_country = PREV
+		}
+		western_indian_ocean_area = {
+			undiscover_country = PREV
+		}
+	}
 }
