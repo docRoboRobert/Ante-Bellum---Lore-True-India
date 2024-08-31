@@ -1,0 +1,52 @@
+country_decisions = {
+
+	lem_send_expedition_to_east_africa = {
+		potential = {
+			has_country_flag = lemuria_mission_to_swahili_flag
+		}
+		allow = {
+			any_owned_province = {
+				is_port = yes
+				OR = {
+					area = gulf_of_arabia_area
+					area = basra_area
+					area = khuzestan_area
+					area = persian_gulf_coast
+					area = mogostan_area
+					region = arabia_region
+					region = horn_of_africa_region
+					region = khorasan_region
+					region = timuristan_region
+					region = tibet_region
+					region = burma_region
+					region = malaya_region
+					region = indonesia_region
+					region = moluccas_region
+					region = indo_china_region
+					region = south_china_region
+				}
+			}
+			treasury = 100
+			dip_power = 20
+			adm_power = 20
+			sailors = 200
+			sailors_percentage = 0.75
+		}
+		effect = {
+			add_treasury = -100
+			add_dip_power = -20
+			add_adm_power = -20
+			add_sailors = -200
+			country_event = {
+				id = lemuria_discover_event.4
+				days = 730
+			}
+			clr_country_flag = lemuria_mission_to_swahili_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 100
+	}
+
+}

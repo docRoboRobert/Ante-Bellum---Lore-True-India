@@ -141,12 +141,110 @@ country_event = {
 		add_adm_power = -20
 		add_sailors = -200
 		#Contact immediately, fires result event after 2 years
+		hidden_effect = {
+			country_event = {
+				id = lemuria_discover_event.4
+				days = 730
+			}
+		}
 	}
 	option = {
 		name = lemuria_discover_event.3.b
 		custom_tooltip = lemuria_discover_event.3.tooltip_b
 		#Unlocks decision which fires result event after 2 years
+		set_country_flag = lemuria_mission_to_swahili_flag
 	}
 }
 
 #Swahili merchants bring news
+country_event = {
+	id = lemuria_discover_event.4
+	title = lemuria_discover_event.4.t
+	desc = lemuria_discover_event.4.d
+	picture = muslimgfx_COLONIZATION_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	goto = 5372
+	
+	immediate = {
+		hidden_effect = {
+			capital_scope = {
+				save_event_target_as = root_capital_target
+			}
+			arabian_sea_region = {
+				discover_country =  ROOT
+			}
+			swahili_coast_sea_area = {
+				discover_country = ROOT
+			}
+			st_timur_sea_region = {
+				discover_country = ROOT
+			}
+			every_province = {
+				limit = {
+					has_port = yes
+					NOT = { province_id = 5262 }
+					OR = {
+						region = arabia_region
+						region = mashriq_region
+						region = persia_region
+						region = khorasan_region
+						region = timuristan_region
+						region = horn_of_africa_region
+						area = gulf_of_arabia_area
+						area = quelimane_area
+						area = northern_swahili_coast_area
+						area = central_swahili_coast_area
+						area = mozambique_area
+						area = lower_zambezi_area
+						area = sakalava_area
+						area = uticulo_makuana_area
+						area = mombasa_area
+					}
+				}
+				discover_country = ROOT
+			}
+			set_country_flag = lemuria_contacted_swahili_flag
+			if = {
+				limit = {
+					technology_group = east_african
+				}
+				east_africa_region = {
+					discover_country = ROOT
+				}
+				1450 = {
+					discover_country = ROOT
+				}
+				1453 = {
+					discover_country = ROOT
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = lemuria_discover_event.4.a
+		highlight = yes
+		goto = 5372
+		custom_tooltip = lemuria_discover_event.4.tooltip
+		add_prestige = 5
+		every_country = {
+			limit = {
+				capital_scope = {
+					region = east_africa_region
+				}
+			}
+			event_target:root_capital_target = {
+				discover_country = PREV
+			}
+		}
+	}
+}
+
+#List of preparations to gain explorer
+
+
+#If Kilwa friendly, they will let us host expedition around Madagascar
