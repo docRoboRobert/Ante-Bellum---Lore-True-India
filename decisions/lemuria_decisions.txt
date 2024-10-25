@@ -1,6 +1,7 @@
 country_decisions = {
 
 	lem_send_expedition_to_east_africa = {
+		color = { 161 242 249 }
 		potential = {
 			has_country_flag = lemuria_mission_to_swahili_flag
 		}
@@ -48,5 +49,161 @@ country_decisions = {
 		}
 		ai_importance = 100
 	}
-
+	
+	lem_first_expedition_prep = {
+		color = { 161 242 249 }
+		potential = {
+			has_country_flag = lemuria_contacted_swahili_flag
+		}
+		allow = {
+			treasury = 250
+			dip_power = 75
+			adm_power = 75
+			mil_power = 50
+			sailors = 2000
+			sailors_percentage = 0.75
+		}
+		effect = {
+			add_treasury = -250
+			add_dip_power = -75
+			add_adm_power = -75
+			add_mil_power = -50
+			add_sailors = -2000
+			country_event = {
+				id = lemuria_discover_event.5
+				days = 1
+			}
+			custom_tooltip = lem_first_expedition_prep.tooltip
+			clr_country_flag = lemuria_contacted_swahili_flag
+			set_country_flag = lemuria_started_first_expedition_prep
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 100
+	}
+	
+	lem_ask_kilwa_for_supplies = {
+		#they will send them in exchange for sharing discoveries -> betray them or not
+		color = { 198 186 123 }
+		potential = {
+			has_country_flag = lemuria_started_first_expedition_prep
+			NOT = { has_country_flag = lemuria_asked_kilwa_1 }
+		}
+		allow = {
+			adm_power = 75
+			dip_power = 75
+		}
+		effect = {
+			add_dip_power = -10
+			country_event = {
+				id = lemuria_discover_event.6
+				days = 60
+			}
+			set_country_flag = lemuria_promised_ZAN_discoveries
+			set_country_flag = lemuria_asked_kilwa_1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 100
+	}
+	
+	lem_ask_kilwa_for_naval_base = {
+		#they will agree in exchange for help with west madagascar -> get called to war with SKA
+		color = { 198 186 123 }
+		potential = {
+			has_country_flag = lemuria_started_first_expedition_prep
+			NOT = { has_country_flag = lemuria_asked_kilwa_2 }
+		}
+		allow = {
+			adm_power = 75
+			dip_power = 75
+			num_of_free_diplomatic_relations = 1
+		}
+		effect = {
+			add_dip_power = -10
+			country_event = {
+				id = lemuria_discover_event.7
+				days = 60
+			}
+			set_country_flag = lemuria_promised_ZAN_west_madagascar
+			set_country_flag = lemuria_asked_kilwa_2
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 100
+	}
+	
+	lem_ask_kilwa_for_charter_irodo = {
+		#they will agree in exchange for colonies near Goa -> can be betrayed later
+		#related further events: Development of Irodo hub -> Expansion into Madagascar -> Kilwa merchants complain from Mahlika
+		#major = yes
+		color = { 198 186 123 }
+		potential = {
+			has_country_flag = lemuria_started_first_expedition_prep
+			has_country_flag = lemuria_promised_ZAN_west_madagascar
+			NOT = { has_country_flag = lemuria_asked_kilwa_3 }
+		}
+		allow = {
+			treasury = 400
+			num_of_free_diplomatic_relations = 1
+			adm_power = 75
+			dip_power = 75
+			reverse_has_opinion = {
+				who = ZAN
+				value = 75
+			}
+		}
+		effect = {
+			set_country_flag = lemuria_asked_kilwa_3
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 100
+	}
+	
+	lem_done_prep_phase_1 = {
+		color = { 161 242 249 }
+		potential = {
+			has_country_flag = lemuria_started_first_expedition_prep
+			has_country_flag = lemuria_started_phase_1_flag
+		}
+		allow = {
+			OR = {
+				in_advisor = 1
+				architect = 1
+				visionary = 1
+				scholar = 1
+				missionary = 1
+				natural_scientist = 1
+				treasurer = 1
+			}
+			OR = {
+				colonist = 1
+				dockmaster = 1
+				naval_reformer = 1
+				colonial_governor = 1
+				navigator = 1
+			}
+			OR = {
+				mr_advisor = 1
+				army_reformer = 1
+				quartermaster = 1
+				recruitmaster = 1
+				grand_captain = 1
+			}
+		}
+		effect = {
+			clr_country_flag = lemuria_started_phase_1_flag
+			#Phase 2 event
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 100
+	}
+	
 }
